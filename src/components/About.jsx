@@ -33,12 +33,13 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <>
+    <div className="relative z-10"> 
+    
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
-
+      <div className="green-pink-gradient z-[-2]" />
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]"
@@ -59,13 +60,13 @@ const About = () => {
         as a UI/UX designer helps to ensure that it is visually appealing, easy
         to use, and enjoyable for users.
       </motion.p>
-
+     
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
