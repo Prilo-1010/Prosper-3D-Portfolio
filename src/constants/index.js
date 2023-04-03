@@ -1,6 +1,5 @@
 import {
   firebase,
-  illustrator,
   next,
   mobile,
   backend,
@@ -139,10 +138,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "illustrator",
-    icon: illustrator,
   },
 ]
 
