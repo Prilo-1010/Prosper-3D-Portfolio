@@ -6,21 +6,18 @@ const App = () => {
   return (
     <>
     <Router>
-        <div className="relative  bg-primary"> 
+        <div className="relative z-0 bg-primary"> 
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar/>
           <Hero/>
         </div>
         <About/>
         <Experience/>
-
-        {/* <Tech/> */}
-
-        
+        <Tech/>
         <Works/>
-        {/* <Feedbacks/> */}
+        <Feedbacks/>
 
-        <div className="relative "> 
+        <div className="relative z-0"> 
            <Contact/>
            <StarsCanvas/>
         </div>
