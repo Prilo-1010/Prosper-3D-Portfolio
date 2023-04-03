@@ -44,16 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]"
       >
-        As a developer, my focus is on using programming languages and technical
-        tools to create functional digital products. I am responsible for
-        writing the code that powers websites, apps, and other digital products,
-        and making sure they work as intended, are reliable, and optimized for
-        performance. <br/><br/>As a UI/UX designer, my focus is on creating visually
-        appealing and interactive designs for digital products. I work to ensure
-        that the product is user-friendly, visually appealing, and aligned with
-        the product's brand and identity. I also consider the overall user
-        experience and work to ensure that the product is intuitive and
-        enjoyable to use. <br/><br/>In summary, as a developer and UI/UX designer, I have
+        As a developer and UI/UX designer, I have
         different but complementary skill sets that are crucial for the creation
         of successful digital products. My technical expertise as a developer
         helps to ensure the product works as intended, while my design expertise
@@ -71,3 +62,19 @@ const About = () => {
 };
 
 export default SectionWrapper(About, "about");
+
+//  As a developer, my focus is on using programming languages and technical
+// tools to create functional digital products. I am responsible for
+// writing the code that powers websites, apps, and other digital products,
+// and making sure they work as intended, are reliable, and optimized for
+// performance. <br/><br/>As a UI/UX designer, my focus is on creating visually
+// appealing and interactive designs for digital products. I work to ensure
+// that the product is user-friendly, visually appealing, and aligned with
+// the product's brand and identity. I also consider the overall user
+// experience and work to ensure that the product is intuitive and
+// enjoyable to use. <br/><br/>In summary, as a developer and UI/UX designer, I have
+// different but complementary skill sets that are crucial for the creation
+// of successful digital products. My technical expertise as a developer
+// helps to ensure the product works as intended, while my design expertise
+// as a UI/UX designer helps to ensure that it is visually appealing, easy
+// to use, and enjoyable for users.
