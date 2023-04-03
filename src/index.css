@@ -221,4 +221,12 @@
   .vertical{
     display: none;
   }
+
+  .hidden{
+    display: none;
+  }
+
+  .mobile{
+    display: none;
+  }
 }
