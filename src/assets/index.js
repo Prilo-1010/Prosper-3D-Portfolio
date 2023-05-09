@@ -43,8 +43,11 @@ import lgs from "./lgs.png";
 import africa from "./africa.png";
 import portfolio from "./portfolio.png";
 import clm from "./clm.jpeg";
+import payshap from "./payshap.png"
+import johndoe from "./johndoe.png"
 
 export {
+  payshap,
   logo,
   backend,
   creator,
@@ -86,6 +89,7 @@ export {
   phiresky,
   cobweb,
   cobweb2,
-  freelance
+  freelance,
+  johndoe
 
 };

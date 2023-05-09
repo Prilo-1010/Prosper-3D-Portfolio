@@ -1,4 +1,6 @@
 import {
+  payshap,
+  johndoe,
   firebase,
   next,
   mobile,
@@ -226,6 +228,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "PayShap",
+    description:
+      "Web-based platform that stimulate economic growth and build digital ecosystems within communities. nstant payments is payment that keeps up with you. ",
+    tags: [
+      {
+        name: "angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: payshap,
+    source_code_link: "https://payshap.co.za"
+  },
+  {
     name: "Les Grand Services",
     description:
       "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
@@ -268,16 +291,16 @@ const projects = [
     source_code_link: "https://www.prosperlolo.com/",
   },
   {
-    name: "ADV",
+    name: "Portfolio Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A personal portfolio website for a developer showcasing his skills and abilities.",
     tags: [
       {
-        name: "angular",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
-        name: "mysql",
+        name: "sanity",
         color: "green-text-gradient",
       },
       {
@@ -285,29 +308,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: adv,
-    source_code_link: "https://www.prosperlolo.com/",
-  },
-  {
-    name: "Portfolio Website",
-    description:
-      "Portfolio website to showcase your skills and capabilities.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: portfolio,
-    source_code_link: "https://www.prosperlolo.com/",
+    image: johndoe,
+    source_code_link: "https://portfoliowebsiteexample.vercel.app",
   },
   {
     name: "Africa AI",
