@@ -40,11 +40,25 @@ import freelance from "./company/freelance.svg";
 import adv from "./adv.png";
 import lolo from "./lolo.png";
 import lgs from "./lgs.png";
-import africa from "./africa.png";
 import portfolio from "./portfolio.png";
 import clm from "./clm.jpeg";
+
 import payshap from "./payshap.png"
 import johndoe from "./johndoe.png"
+import tcib from "./tcib.png"
+import summaizer from "./summaizer.png"
+import moodverse from "./moodverse.png"
+import fren from "./fren.png"
+import art from "./art.png"
+import capital from "./capital.png"
+import cast from "./cast.png"
+import flixpire from "./flixpire.png"
+import jobswift from "./jobswift.png"
+import krypto from "./krypto.png"
+import port from "./port.png"
+import nifty from "./nifty.png"
+import prompt from "./prompt.png"
+import thrivio from "./thrivio.png"
 
 export {
   payshap,
@@ -84,12 +98,18 @@ export {
   lolo,
   clm,
   portfolio,
-  africa,
   view,
   phiresky,
   cobweb,
   cobweb2,
   freelance,
-  johndoe
+  johndoe,
+  tcib,
+  summaizer,
+  moodverse,
+  fren,
+  capital,
+  cast, flixpire, jobswift, krypto, port, nifty, prompt, thrivio, art
+
 
 };

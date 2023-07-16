@@ -15,24 +15,25 @@ import {
   tailwind,
   nodejs,
   figma,
-  clm,
-  portfolio,
-  africa,
   threejs,
   instagram,
   twitter,
   linkedin,
   github2,
   angular,
-  adv,
-  lolo,
+  fren,
   lgs,
   view,
   cobweb,
   phiresky,
   logo,
   freelance,
-  cobweb2
+  tcib,
+  summaizer,
+  moodverse,
+  capital,
+  cast, flixpire, jobswift, krypto, port, nifty, prompt, thrivio, art
+
 } from "../assets";
 
 export const navLinks = [
@@ -132,7 +133,7 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  }, 
+  },
   {
     name: "firebase",
     icon: firebase,
@@ -176,7 +177,7 @@ const experiences = [
     company_name: "Freelance",
     icon: freelance,
     iconBg: "#1e1e1e",
-    date: "Jan 2022 - Present",
+    date: "Jan 2022 - 2023",
     points: [
       "Developing and maintaining full-stack applications.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -189,7 +190,7 @@ const experiences = [
     company_name: "Phiresky",
     icon: phiresky,
     iconBg: "#fff",
-    date: "Sep 2022 - Present",
+    date: "Sep 2022 - 2023",
     points: [
       "Designs user interfaces for web and made them responsive.",
       "Conducts user research to understand the target audience.",
@@ -230,7 +231,7 @@ const projects = [
   {
     name: "PayShap",
     description:
-      "Web-based platform that stimulate economic growth and build digital ecosystems within communities. nstant payments is payment that keeps up with you. ",
+      "Web-based platform that stimulate economic growth and build digital ecosystems within communities. Instant payments is payment that keeps up with you. ",
     tags: [
       {
         name: "angular",
@@ -248,6 +249,27 @@ const projects = [
     image: payshap,
     source_code_link: "https://payshap.co.za"
   },
+  {
+    name: "TCIB Africa",
+    description: "A web-based platform fostering economic growth. TCIB enables instant clearing of low-value cross-border payments on a deferred basis.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tcib,
+    source_code_link: "https://tcib.africa",
+  },
+
   {
     name: "Les Grand Services",
     description:
@@ -270,25 +292,132 @@ const projects = [
     source_code_link: "https://lesgrandservices.netlify.app/",
   },
   {
-    name: "Lolo V",
+    name: "Art-Sense AI",
     description:
-      "Website for Software consultant company, they rovide a way for entrepreneurs and businesses to outsource various tasks and projects.",
+      "A personal portfolio website for a developer showcasing his skills and abilities.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: art,
+    source_code_link: "https://portfoliowebsiteexample.vercel.app",
+  },
+  {
+    name: "FrenAI",
+    description:
+      "Discover the future of article summarization with Chat-GPT. Swift and accurate, stay informed without lengthy reads. Simplify your information journey today!",
+    tags: [
+      {
+        name: "react/vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chat-gpt",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: fren,
+    source_code_link: "https://frenai.vercel.app/",
+  },
+  {
+    name: "Nifty Cards",
+    description:
+      "A personal portfolio website for a developer showcasing his skills and abilities.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nifty,
+    source_code_link: "https://portfoliowebsiteexample.vercel.app",
+  },
+  {
+    name: "Moodverse",
+    description:
+      "Where emotions shape your virtual world for a personalized adventure like no other. Step into a realm where feelings come alive, defining your digital experience.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: moodverse,
+    source_code_link: "https://moodverse-port.vercel.app/",
+  },
+  {
+    name: "Krypto Wave",
+    description:
+      "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: lolo,
-    source_code_link: "https://www.prosperlolo.com/",
+    image: krypto,
+    source_code_link: "https://lesgrandservices.netlify.app/",
+  },
+  {
+    name: "SummAIzer",
+    description:
+      "Discover the future of article summarization with Chat-GPT. Swift and accurate, stay informed without lengthy reads. Simplify your information journey today!",
+    tags: [
+      {
+        name: "react/vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chat-gpt",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: summaizer,
+    source_code_link: "https://summaizer.vercel.app/",
   },
   {
     name: "Portfolio Website",
@@ -308,48 +437,136 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: johndoe,
+    image: port,
     source_code_link: "https://portfoliowebsiteexample.vercel.app",
   },
   {
-    name: "Africa AI",
+    name: "Promptopia",
     description:
-      "An illustration of africa made with the latest technology.",
+      "Where emotions shape your virtual world for a personalized adventure like no other. Step into a realm where feelings come alive, defining your digital experience.",
     tags: [
       {
-        name: "Midjourney",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
-        name: "Figma",
+        name: "javascript",
         color: "green-text-gradient",
       },
-      
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
     ],
-    image: africa,
-    source_code_link: "https://www.prosperlolo.com/",
+    image: prompt,
+    source_code_link: "https://moodverse-port.vercel.app/",
   },
   {
-    name: "C'est le meme",
+    name: "Capital Crowd",
     description:
-      "Logo for a meme page, they make both french and english memes.",
+      "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
     tags: [
       {
-        name: "Illustrator",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "figma",
+        name: "mongodb",
         color: "green-text-gradient",
       },
-      // {
-      //   name: "css",
-      //   color: "pink-text-gradient",
-      // },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
     ],
-    image: clm,
-    source_code_link: "https://www.prosperlolo.com/",
+    image: capital,
+    source_code_link: "https://lesgrandservices.netlify.app/",
   },
+  {
+    name: "Intellicast",
+    description:
+      "Where emotions shape your virtual world for a personalized adventure like no other. Step into a realm where feelings come alive, defining your digital experience.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cast,
+    source_code_link: "https://moodverse-port.vercel.app/",
+  },
+  {
+    name: "Thrivio",
+    description:
+      "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: thrivio,
+    source_code_link: "https://lesgrandservices.netlify.app/",
+  },
+  {
+    name: "Jobswift",
+    description:
+      "Where emotions shape your virtual world for a personalized adventure like no other. Step into a realm where feelings come alive, defining your digital experience.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobswift,
+    source_code_link: "https://moodverse-port.vercel.app/",
+  },
+  // {
+  //   name: "Flixpire",
+  //   description:
+  //     "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: flixpire,
+  //   source_code_link: "https://lesgrandservices.netlify.app/",
+  // },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

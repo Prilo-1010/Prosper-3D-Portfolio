@@ -5,6 +5,15 @@ import { view } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { FaFigma } from 'react-icons/fa';
+
+const DesignLink = () => {
+  return (
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <a href="https://www.figma.com/@prosperlolo" target="_self" rel="noreferrer noopener"><FaFigma/>You can check my designs here</a>
+    </motion.div>
+  );
+}
 
 const ProrjectCard = ({
   index,
@@ -22,7 +31,7 @@ const ProrjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[450px]"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -90,6 +99,7 @@ const Works = () => {
           <ProrjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      {/* <DesignLink/> */}
     </>
   );
 };
