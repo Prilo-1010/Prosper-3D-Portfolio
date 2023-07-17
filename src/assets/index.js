@@ -59,6 +59,11 @@ import port from "./port.png"
 import nifty from "./nifty.png"
 import prompt from "./prompt.png"
 import thrivio from "./thrivio.png"
+import cards from "./cards.png"
+import threed from "./threed.png"
+import well from "./well.png"
+import animation from "./animation.png"
+import les from "./les.png"
 
 export {
   payshap,
@@ -110,6 +115,12 @@ export {
   fren,
   capital,
   cast, flixpire, jobswift, krypto, port, nifty, prompt, thrivio, art
+  ,
+  les,
+  animation,
+  well,
+  threed,
+  cards
 
 
 };

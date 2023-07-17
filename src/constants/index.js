@@ -1,6 +1,5 @@
 import {
   payshap,
-  johndoe,
   firebase,
   next,
   mobile,
@@ -32,7 +31,12 @@ import {
   summaizer,
   moodverse,
   capital,
-  cast, flixpire, jobswift, krypto, port, nifty, prompt, thrivio, art
+  cast, flixpire, jobswift, krypto, port, nifty, prompt, thrivio, art,
+  les,
+  animation,
+  well,
+  threed,
+  cards
 
 } from "../assets";
 
@@ -270,28 +274,6 @@ const projects = [
     source_code_link: "https://tcib.africa",
   },
   {
-    name: "Les Grand Services",
-    description:
-      "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: lgs,
-    source_code_link: "https://lesgrandservices.netlify.app/",
-  },
-
-  {
     name: "FrenAI",
     description:
       "Discover the future of article summarization with Chat-GPT. Swift and accurate, stay informed without lengthy reads. Simplify your information journey today!",
@@ -356,28 +338,6 @@ const projects = [
     source_code_link: "https://intellicast.vercel.app/",
   },
   {
-    name: "Art-Sense AI",
-    description:
-      "A personal portfolio website for a developer showcasing his skills and abilities.",
-    tags: [
-      {
-        name: "next",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sanity",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: art,
-    source_code_link: "https://portfoliowebsiteexample.vercel.app",
-  },
-
-  {
     name: "Moodverse",
     description:
       "Where emotions shape your virtual world for a personalized adventure like no other. Step into a realm where feelings come alive, defining your digital experience.",
@@ -398,27 +358,6 @@ const projects = [
     image: moodverse,
     source_code_link: "https://moodverse-port.vercel.app/",
   },
-  // {
-  //   name: "Krypto Wave",
-  //   description:
-  //     "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: krypto,
-  //   source_code_link: "https://lesgrandservices.netlify.app/",
-  // },
   {
     name: "SummAIzer",
     description:
@@ -463,49 +402,6 @@ const projects = [
     source_code_link: "https://portfoliowebsiteexample.vercel.app",
   },
   {
-    name: "Promptzen",
-    description:
-      "Elevate productivity & creativity. Capture, store & revisit ChatGPT prompts instantly. Never lose brilliant ideas - access them anytime, anywhere",
-    tags: [
-      {
-        name: "next",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: prompt,
-    source_code_link: "https://promptzen-psi.vercel.app/",
-  },
-  // {
-  //   name: "Capital Crowd",
-  //   description:
-  //     "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: capital,
-  //   source_code_link: "https://lesgrandservices.netlify.app/",
-  // },
-
-  {
     name: "Flixpire",
     description:
       "Experience next-gen entertainment with our cutting-edge streaming app. Access an expansive library of high-quality shows, movies, and originals at your fingertips.",
@@ -526,6 +422,48 @@ const projects = [
     image: flixpire,
     source_code_link: "https://flixpire.web.app/",
   },
+  {
+    name: "Les Grand Services",
+    description:
+      "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lgs,
+    source_code_link: "https://lesgrandservices.netlify.app/",
+  },
+  // {
+  //   name: "Art-Sense AI",
+  //   description:
+  //     "A personal portfolio website for a developer showcasing his skills and abilities.",
+  //   tags: [
+  //     {
+  //       name: "next",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "sanity",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: art,
+  //   source_code_link: "https://portfoliowebsiteexample.vercel.app",
+  // },
   // {
   //   name: "Thrivio",
   //   description:
@@ -568,8 +506,167 @@ const projects = [
   //   image: jobswift,
   //   source_code_link: "https://moodverse-port.vercel.app/",
   // },
+     // {
+  //   name: "Krypto Wave",
+  //   description:
+  //     "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: krypto,
+  //   source_code_link: "https://lesgrandservices.netlify.app/",
+  // },
+  // {
+  //   name: "Promptzen",
+  //   description:
+  //     "Elevate productivity & creativity. Capture, store & revisit ChatGPT prompts instantly. Never lose brilliant ideas - access them anytime, anywhere",
+  //   tags: [
+  //     {
+  //       name: "next",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: prompt,
+  //   source_code_link: "https://promptzen-psi.vercel.app/",
+  // },
+  // {
+  //   name: "Capital Crowd",
+  //   description:
+  //     "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: capital,
+  //   source_code_link: "https://lesgrandservices.netlify.app/",
+  // },
+  {
+    name: "Logos",
+    description:
+      "A harmony of art and branding, each design captivates with its uniqueness and impact. Explore the essence of visual storytelling and the artistry behind these remarkable logos.",
+    tags: [
+      {
+        name: "figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "illustrator",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: well,
+    source_code_link: "https://www.figma.com/file/RMVD6pezhEbk2kWc9kRGU3/Logos?type=design&node-id=139%3A2&mode=design&t=aziGKmHjHmtCHUfT-1"
+  },
+  {
+    name: "Cards",
+    description:
+      "Where artistry meets sentiment. Discover the beauty of meaningful connections through these curated designs.",
+    tags: [
+      {
+        name: "figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "illustrator",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "tailwindcss",
+      //   color: "pink-text-gradient",
+      // },
 
-
+    ],
+    image: cards,
+    source_code_link: "https://www.figma.com/file/0kwnL1chD1O5diS6KNv3DP/Cards?type=design&node-id=0%3A1&mode=design&t=Ca84gWUtIzsjWaP9-1",
+  },
+  {
+    name: "Portfolio Design",
+    description:
+      "A journey into the realm of innovation and code. Witness the power of technology through each project, as this portfolio unveils expertise of a passionate software developer.",
+    tags: [
+      {
+        name: "figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "illustrator",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: threed,
+    source_code_link: "https://www.figma.com/file/TYvSUbNgVAwzObiNHuxAh8/Portfolio-Website?type=design&node-id=3%3A483&mode=design&t=2KbkYRH92yutxdDk-1",
+  },
+  {
+    name: "LGS Design",
+    description:
+      "Discover drop shipping delight: Effortless shopping, curated products, endless style. Welcome to a world of convenience and trendsetting finds.",
+    tags: [
+      {
+        name: "figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "photoshop",
+        color: "green-text-gradient",
+      },
+    ],
+    image: les,
+    source_code_link: "https://www.figma.com/file/Lr5LnxJ4deWHnsrBbzBVBk/Les-Grand-Services?type=design&node-id=2%3A2&mode=design&t=FniLVl5SbumjoWce-1",
+  },
+  {
+    name: "Prototype",
+    description:
+      "A stunning prototype redefining user experiences. Immerse yourself in seamless interactions and captivating visuals, showcasing the artistry of digital innovation.",
+    tags: [
+      {
+        name: "figma",
+        color: "blue-text-gradient",
+      },
+      // {
+      //   name: "javascript",
+      //   color: "green-text-gradient",
+      // },
+    ],
+    image: animation,
+    source_code_link: "https://drive.google.com/drive/folders/1MJBr4fBDS1Sj1GKUCzRc_ZujioQDWZvL?usp=sharing",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
