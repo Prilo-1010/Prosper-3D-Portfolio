@@ -251,7 +251,7 @@ const projects = [
   },
   {
     name: "TCIB Africa",
-    description: "A web-based platform fostering economic growth. TCIB enables instant clearing of low-value cross-border payments on a deferred basis.",
+    description: "A platform fostering economic growth. TCIB enables instant clearing of low-value cross-border payments on a deferred basis.",
     tags: [
       {
         name: "Angular",
@@ -269,7 +269,6 @@ const projects = [
     image: tcib,
     source_code_link: "https://tcib.africa",
   },
-
   {
     name: "Les Grand Services",
     description:
@@ -291,27 +290,7 @@ const projects = [
     image: lgs,
     source_code_link: "https://lesgrandservices.netlify.app/",
   },
-  {
-    name: "Art-Sense AI",
-    description:
-      "A personal portfolio website for a developer showcasing his skills and abilities.",
-    tags: [
-      {
-        name: "next",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sanity",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: art,
-    source_code_link: "https://portfoliowebsiteexample.vercel.app",
-  },
+
   {
     name: "FrenAI",
     description:
@@ -337,6 +316,48 @@ const projects = [
   {
     name: "Nifty Cards",
     description:
+      "Discover joy in every card at our Nifty Card Store. Express love, laughter, and heartfelt emotions uniquely. Find the perfect card to make someone's day",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "next",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nifty,
+    source_code_link: "https://nifty-cards.vercel.app/",
+  },
+  {
+    name: "Intellicast",
+    description:
+      "Get real-time weather insights with our cutting-edge app powered by Chat-GPT. Experience accurate forecasts and stay prepared for any conditions, all in one place.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cast,
+    source_code_link: "https://intellicast.vercel.app/",
+  },
+  {
+    name: "Art-Sense AI",
+    description:
       "A personal portfolio website for a developer showcasing his skills and abilities.",
     tags: [
       {
@@ -352,9 +373,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: nifty,
+    image: art,
     source_code_link: "https://portfoliowebsiteexample.vercel.app",
   },
+
   {
     name: "Moodverse",
     description:
@@ -376,27 +398,27 @@ const projects = [
     image: moodverse,
     source_code_link: "https://moodverse-port.vercel.app/",
   },
-  {
-    name: "Krypto Wave",
-    description:
-      "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: krypto,
-    source_code_link: "https://lesgrandservices.netlify.app/",
-  },
+  // {
+  //   name: "Krypto Wave",
+  //   description:
+  //     "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: krypto,
+  //   source_code_link: "https://lesgrandservices.netlify.app/",
+  // },
   {
     name: "SummAIzer",
     description:
@@ -441,9 +463,9 @@ const projects = [
     source_code_link: "https://portfoliowebsiteexample.vercel.app",
   },
   {
-    name: "Promptopia",
+    name: "Promptzen",
     description:
-      "Where emotions shape your virtual world for a personalized adventure like no other. Step into a realm where feelings come alive, defining your digital experience.",
+      "Elevate productivity & creativity. Capture, store & revisit ChatGPT prompts instantly. Never lose brilliant ideas - access them anytime, anywhere",
     tags: [
       {
         name: "next",
@@ -459,94 +481,10 @@ const projects = [
       },
     ],
     image: prompt,
-    source_code_link: "https://moodverse-port.vercel.app/",
-  },
-  {
-    name: "Capital Crowd",
-    description:
-      "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: capital,
-    source_code_link: "https://lesgrandservices.netlify.app/",
-  },
-  {
-    name: "Intellicast",
-    description:
-      "Where emotions shape your virtual world for a personalized adventure like no other. Step into a realm where feelings come alive, defining your digital experience.",
-    tags: [
-      {
-        name: "next",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: cast,
-    source_code_link: "https://moodverse-port.vercel.app/",
-  },
-  {
-    name: "Thrivio",
-    description:
-      "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: thrivio,
-    source_code_link: "https://lesgrandservices.netlify.app/",
-  },
-  {
-    name: "Jobswift",
-    description:
-      "Where emotions shape your virtual world for a personalized adventure like no other. Step into a realm where feelings come alive, defining your digital experience.",
-    tags: [
-      {
-        name: "next",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobswift,
-    source_code_link: "https://moodverse-port.vercel.app/",
+    source_code_link: "https://promptzen-psi.vercel.app/",
   },
   // {
-  //   name: "Flixpire",
+  //   name: "Capital Crowd",
   //   description:
   //     "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
   //   tags: [
@@ -563,9 +501,74 @@ const projects = [
   //       color: "pink-text-gradient",
   //     },
   //   ],
-  //   image: flixpire,
+  //   image: capital,
   //   source_code_link: "https://lesgrandservices.netlify.app/",
   // },
+
+  {
+    name: "Flixpire",
+    description:
+      "Experience next-gen entertainment with our cutting-edge streaming app. Access an expansive library of high-quality shows, movies, and originals at your fingertips.",
+    tags: [
+      {
+        name: "react/vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: flixpire,
+    source_code_link: "https://flixpire.web.app/",
+  },
+  // {
+  //   name: "Thrivio",
+  //   description:
+  //     "Web-based platform that provide a way for entrepreneurs and businesses to outsource various tasks and projects. Whether you need graphic design, or any other service.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: thrivio,
+  //   source_code_link: "https://lesgrandservices.netlify.app/",
+  // },
+  // {
+  //   name: "Jobswift",
+  //   description:
+  //     "Where emotions shape your virtual world for a personalized adventure like no other. Step into a realm where feelings come alive, defining your digital experience.",
+  //   tags: [
+  //     {
+  //       name: "next",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobswift,
+  //   source_code_link: "https://moodverse-port.vercel.app/",
+  // },
+
 
 ];
 
