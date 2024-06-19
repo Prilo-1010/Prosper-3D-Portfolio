@@ -32,24 +32,24 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send( 'service_prosper',
-        'template_prosper',
+      .send('service_5shp93t',
+        'template_jp0wh1k',
         // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Prosper Lolo",
           from_email: form.email,
-          to_email: "loloprosper4@gmail.com",
+          to_email: "prosperloloiv@gmail.com",
           message: form.message,
         },
-         'hL99E5ZNADNqlxbVM'
+         'Qy8Nc8jMf9Xii-7EZ'
        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you. Prosper will get back to you as soon as possible.");
 
           setForm({
             name: "",
